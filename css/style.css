@@ -132,14 +132,17 @@ h1 {
   font-size: 2rem;
 }
 
-/* brands */
+/* brands
+
+No muestra Mixpanel por algun motivo
+*/
 #brands {
   max-width: 1100px;
-  text-align: center;
   margin: auto;
 }
 
 h2 {
+  margin-top: 0rem;
   color: black;
   font-size: 2.5rem;
   font-family: "Rajdhani", sans-serif;
@@ -156,6 +159,96 @@ h2 {
 
 #brands ul li {
   margin: auto;
+
+  overflow: visible;
+}
+
+/* benefits */
+
+#benefitsContainer {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2%;
+}
+
+#benefits h2 {
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.benefits-card {
+  font-family: "Rajdhani", sans-serif;
+  text-align: center;
+  font-weight: 500;
+  height: 450px;
+  border-radius: 3%;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  padding: 0 10px 0 10px;
+}
+
+.benefits-card h3 {
+  margin-top: 5%;
+  font-size: 1.7rem;
+  height: 68px;
+}
+
+.benefits-card p {
+  margin-top: 5%;
+  font-size: 1rem;
+  height: 84px;
+}
+
+.benefits-card ul {
+  margin-top: 5%;
+  list-style-type: none;
+  font-weight: 300;
+}
+
+.benefits-card ul * {
+  margin: 0px;
+}
+
+.benefits-cardimg {
+  margin-top: 20%;
+  height: 210px;
+}
+
+/*Growth process*/
+
+#growth-process {
+  max-width: 1100px;
+  margin: auto;
+}
+
+#growth-process h2 {
+  margin-top: 20%;
+  margin-bottom: 5%;
+}
+
+#growth-process ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+#growth-process ul li {
+  flex-grow: 1;
+  justify-content: center;
+  text-align: center;
+}
+
+#growth-process ul li h4 {
+  margin-top: 10%;
+  font-family: "Rajdhani", sans-serif;
+}
+/*Growth Solutions*/
+
+#growth-solutions {
+  margin-top: 5%;
 }
 
 /*footer*/
