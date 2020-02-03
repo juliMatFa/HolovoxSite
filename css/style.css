@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: "Rajdhani", sans-serif;
 }
 
 /*navBar
@@ -96,7 +97,6 @@ los position y z-index
 }
 
 h1 {
-  font-family: "Rajdhani", sans-serif;
   font-weight: 100;
   font-size: 3rem;
 }
@@ -127,7 +127,6 @@ h1 {
 #mainFrame-button a {
   text-decoration: none;
   color: white;
-  font-family: "Rajdhani", sans-serif;
   font-weight: 100;
   font-size: 2rem;
 }
@@ -145,7 +144,6 @@ h2 {
   margin-top: 0rem;
   color: black;
   font-size: 2.5rem;
-  font-family: "Rajdhani", sans-serif;
   font-weight: 500;
   text-align: center;
 }
@@ -179,7 +177,6 @@ h2 {
 }
 
 .benefits-card {
-  font-family: "Rajdhani", sans-serif;
   text-align: center;
   font-weight: 500;
   height: 450px;
@@ -243,18 +240,144 @@ h2 {
 
 #growth-process ul li h4 {
   margin-top: 10%;
-  font-family: "Rajdhani", sans-serif;
 }
 /*Growth Solutions*/
 
-#growth-solutions {
+h3 {
+  text-align: center;
   margin-top: 5%;
 }
 
-/*footer*/
-footer img {
-  width: 100%;
+#growth-solutions h2 {
+  margin-top: 7%;
 }
-footer h4 img {
-  width: 1.5rem;
+
+#growth-solutions p {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+#growth-solutions-cards {
+  max-width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+#growth-solutions-cards p {
+  max-width: 200px;
+}
+
+.growth-solutions-card {
+  border-radius: 3%;
+  width: 25%;
+  height: 280px;
+  text-align: center;
+  margin-top: 5%;
+  -webkit-box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.25);
+  padding: 0 10px 0 10px;
+}
+
+.growth-solutions-card img {
+  transform: translateXS(-30%);
+}
+
+#growth-solutions-button {
+  background-color: #5a99b8;
+  width: 180px;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+  margin-top: 3%;
+  line-height: 50px;
+  border-radius: 100px;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+#growth-solutions-button a {
+  text-decoration: none;
+  color: white;
+}
+
+/*Headquarters*/
+
+#headquarters h2 {
+  margin-top: 5%;
+}
+
+#headquarters-cards {
+  max-width: 1100px;
+  justify-items: center;
+  display: flex;
+  margin: auto;
+  margin-top: 4%;
+  align-items: center;
+}
+
+.headquarters-card {
+  background-color: teal;
+  text-align: center;
+  width: 400px;
+  align-items: center;
+  margin: auto;
+  height: 150px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+#headquarters-bsas {
+  background-color: lightblue;
+}
+
+#headquarters-miami {
+  background-color: pink;
+}
+
+#headquarters-bsas img {
+  width: 80%;
+  position: relative;
+  bottom: 1.5rem;
+}
+
+#headquarters-miami img {
+  width: 50%;
+  position: relative;
+  bottom: 1.5rem;
+}
+
+/*footer*/
+
+#footercontainer {
+  position: relative;
+  top: 0;
+}
+footer h1 {
+  position: absolute;
+}
+footer img {
+  position: absolute;
+  top: -100px;
+  z-index: -1;
+}
+
+#footercards {
+  display: flex;
+}
+
+.footer-card {
+  background-color: red;
 }
