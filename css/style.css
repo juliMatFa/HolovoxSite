@@ -5,11 +5,7 @@
   font-family: "Rajdhani", sans-serif;
 }
 
-/*navBar
-
-Queres que sea sticky?
-
-*/
+/*navBar*/
 
 nav {
   width: 100%;
@@ -52,6 +48,79 @@ nav ul {
 nav ul li {
   margin-right: 1rem;
 }
+
+/*Footer*/
+
+footer {
+  text-align: center;
+  border: 3px;
+  border-color: red;
+  position: relative;
+}
+
+#footer-city {
+  background-image: url(../img/index/city.svg);
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: -100%;
+  z-index: -1;
+}
+
+#footer-container {
+  margin-top: 10%;
+  background-color: #244c59;
+  height: 300px;
+  color: white;
+}
+
+#footer-container h1 {
+  font-weight: 500;
+}
+
+#footer-container h4 {
+  font-weight: 100;
+}
+
+#footer-cards {
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  max-width: 1100px;
+  margin-top: 3%;
+}
+
+.footer-card {
+  width: 400px;
+  background-color: white;
+  top: 0;
+  color: black;
+  border-radius: 10px;
+}
+
+.footer-card h3 {
+  margin: 0;
+  margin-top: 3%;
+  font-weight: 500;
+}
+
+.footer-card-info {
+  display: flex;
+  margin: 3% 0 5% 7%;
+  font-weight: 100;
+  align-items: center;
+}
+
+.footer-card-info p {
+  margin-left: 3%;
+  font-size: 1.1rem;
+}
+
+.footer-card img {
+  width: 7%;
+}
+
+/*INDEX*/
 
 /*mainFrame
 Cuando consigamos el video, hay que escalarlo para no tener que hacer tramoya con
@@ -131,10 +200,7 @@ h1 {
   font-size: 2rem;
 }
 
-/* brands
-
-No muestra Mixpanel por algun motivo
-*/
+/* brands*/
 #brands {
   max-width: 1100px;
   margin: auto;
@@ -241,6 +307,7 @@ h2 {
 #growth-process ul li h4 {
   margin-top: 10%;
 }
+
 /*Growth Solutions*/
 
 h3 {
@@ -359,25 +426,4 @@ h3 {
   bottom: 1.5rem;
 }
 
-/*footer*/
-
-#footercontainer {
-  position: relative;
-  top: 0;
-}
-footer h1 {
-  position: absolute;
-}
-footer img {
-  position: absolute;
-  top: -100px;
-  z-index: -1;
-}
-
-#footercards {
-  display: flex;
-}
-
-.footer-card {
-  background-color: red;
-}
+/* PORTFOLIO */
