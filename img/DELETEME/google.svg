@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="175" height="36" viewBox="0 0 175 36">
-  <defs>
-    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 438 90">
-      <image width="438" height="90" xlink:href="google-image.png"/>
-    </pattern>
-  </defs>
-  <rect id="google" width="175" height="36" fill="url(#pattern)"/>
-</svg>

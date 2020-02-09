@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="10.672" height="20.141" viewBox="0 0 10.672 20.141">
-  <g id="battery" transform="translate(-14 -0.508)">
-    <path id="Trazado_2256" data-name="Trazado 2256" d="M23.8,23.209H14.876A.876.876,0,0,1,14,22.332V4.876A.876.876,0,0,1,14.876,4H23.8a.876.876,0,0,1,.876.876V22.332A.876.876,0,0,1,23.8,23.209Z" transform="translate(0 -2.56)" fill="#424a60"/>
-    <rect id="Rectángulo_230" data-name="Rectángulo 230" width="4" height="1" transform="translate(17.648 0.508)" fill="#d8a852"/>
-    <path id="Trazado_2257" data-name="Trazado 2257" d="M26.98,20.625H25.557v-4.6a.02.02,0,0,0-.036-.016L22,21.692h1.779v4.955a.02.02,0,0,0,.035.018Z" transform="translate(-5.154 -10.292)" fill="#efce4a"/>
-    <path id="Trazado_2258" data-name="Trazado 2258" d="M23.8,4H14.876A.876.876,0,0,0,14,4.876V7.2H24.672V4.876A.876.876,0,0,0,23.8,4Z" transform="translate(0 -2.56)" fill="#ea6248"/>
-  </g>
-</svg>
